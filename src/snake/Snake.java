@@ -28,7 +28,7 @@ public class Snake implements ActionListener, KeyListener {
 	
 	public Snake(){
 		//dim = Toolkit.getDefaultToolkit().getScreenSize();
-		jframe = new JFrame("Zmijica");
+		jframe = new JFrame("SNAKE");
 		jframe.setVisible(true);
 		jframe.setSize(800,600);
 		jframe.setResizable(false);

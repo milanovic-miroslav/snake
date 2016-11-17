@@ -25,8 +25,8 @@ protected void paintComponent(Graphics g) {
 		for (Point point : snake.stones){
 			g.fillRect(point.x*Snake.SCALE, point.y*Snake.SCALE, Snake.SCALE, Snake.SCALE);
 		}	
-		String string = "Rezultat: " + snake.score + ", Duzina pitona: "
-				+ snake.tailLength +", Vreme: "+ snake.time/14;
+		String string = "Score: " + snake.score + ", Lenght: "
+				+ snake.tailLength +", Time: "+ snake.time/14;
 		g.setColor(Color.BLACK);
 		g.drawString(string, 280, 20);
 		
